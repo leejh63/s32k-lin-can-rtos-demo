@@ -13,7 +13,7 @@ S32K144 보드 3대를 역할별로 나누어 구성한 LIN/CAN 통신 프로젝
 
 ## Demo media
 
-전체 영상의 경우  GitHub Release asset을 통해 추가예정.
+영상의 경우 추가예정.
 
 ### Board setup
 
