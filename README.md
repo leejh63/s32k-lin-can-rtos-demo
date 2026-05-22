@@ -13,19 +13,11 @@ S32K144 보드 3대를 역할별로 나누어 구성한 LIN/CAN 통신 프로젝
 
 ## Demo media
 
-영상의 경우 추가예정.
 
-### Board setup
 
-> TODO: 전체 보드 연결 사진 또는 배선 사진을 여기에 추가예정.
+https://github.com/user-attachments/assets/0bafa2e0-7b3a-42e6-be9b-d4daa138f2f6
 
-### Emergency flow
 
-> TODO: ADC emergency 상태가 CAN emergency 명령으로 전달되는 영상을 여기에 추가예정.
-
-### Recovery flow
-
-> TODO: OK request 이후 조정 노드가 LIN 상태를 재확인하고 복구 승인하는 영상을 여기에 추가예정.
 
 
 ---
