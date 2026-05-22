@@ -11,13 +11,23 @@ S32K144 보드 3대를 역할별로 나누어 구성한 LIN/CAN 통신 프로젝
 
 ---
 
-## Demo media
-putty 영상 추가 예정
+## Demo
+
+### Hardware Setup
+
+<p align="center">
+  <img
+    width="600"
+    alt="LIN/CAN hardware setup with S32K144 boards"
+    src="https://github.com/user-attachments/assets/31f35f5e-d451-4c5e-83fe-0c78696917fd"
+  />
+</p>
+
+### LIN/CAN Communication Demo
 
 
-https://github.com/user-attachments/assets/0bafa2e0-7b3a-42e6-be9b-d4daa138f2f6
 
-
+https://github.com/user-attachments/assets/a8be3d19-107b-4916-9232-ce97f7e89402
 
 
 ---
@@ -28,7 +38,7 @@ https://github.com/user-attachments/assets/0bafa2e0-7b3a-42e6-be9b-d4daa138f2f6
 
 ```mermaid
 flowchart LR
-    Sensor["LIN 센서 노드<br/>ADC 상태 분류"] -->|"LIN status frame"| Master["LIN/CAN 조정 노드"]
+    Sensor["LIN 센서 노드"] -->|"LIN status frame"| Master["LIN/CAN 조정 노드"]
     Master -->|"CAN emergency command"| CanNode["CAN 응답 노드"]
     CanNode -->|"button OK request"| Master
     Master -->|"LIN status re-check"| Sensor
