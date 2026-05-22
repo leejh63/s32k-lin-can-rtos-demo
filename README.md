@@ -12,7 +12,7 @@ S32K144 보드 3대를 역할별로 나누어 구성한 LIN/CAN 통신 프로젝
 ---
 
 ## Demo media
-
+putty 영상 추가 예정
 
 
 https://github.com/user-attachments/assets/0bafa2e0-7b3a-42e6-be9b-d4daa138f2f6
